@@ -78,7 +78,7 @@ function ToletCard() {
       </div>
       <div className="p-4 my-4">
         <Link
-          to={`/tolets/3`}
+          to={`/courses/3`}
           className="flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-8 py-2 text-sm font-medium text-white hover:bg-gray-700"
         >
           View Details

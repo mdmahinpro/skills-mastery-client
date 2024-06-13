@@ -17,7 +17,7 @@ import {
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-function EditTolet() {
+function EditCourse() {
   const [currentTolet, setCurrentTolet] = useState({});
   const [showToast, setShowToast] = useState(false);
   const { id } = useParams();
@@ -341,4 +341,4 @@ function EditTolet() {
   );
 }
 
-export default EditTolet;
+export default EditCourse;

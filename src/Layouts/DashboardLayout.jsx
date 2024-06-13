@@ -104,7 +104,7 @@ export default function Dashboard() {
                           <ul role="list" className="-mx-2 space-y-1">
                             <li>
                               <a
-                                href="/all-tolets"
+                                href="/all-courses"
                                 className="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                               >
                                 <HomeIcon
@@ -116,7 +116,7 @@ export default function Dashboard() {
                             </li>
                             <li>
                               <Link
-                                to="/add-tolets"
+                                to="/add-courses"
                                 className="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                               >
                                 <UsersIcon
@@ -152,7 +152,7 @@ export default function Dashboard() {
                   <ul role="list" className="-mx-2 space-y-1">
                     <li>
                       <a
-                        href="/dashboard/all-tolets"
+                        href="/dashboard/all-courses"
                         className="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                       >
                         <HomeIcon
@@ -164,14 +164,14 @@ export default function Dashboard() {
                     </li>
                     <li>
                       <Link
-                        to="/dashboard/add-tolet"
+                        to="/dashboard/add-course"
                         className="text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                       >
                         <UsersIcon
                           className="h-6 w-6 shrink-0"
                           aria-hidden="true"
                         />
-                        Add New Tolet
+                        Add New Course
                       </Link>
                     </li>
                   </ul>

@@ -5,8 +5,8 @@ import CourseDetails from "../components/SubComponent/CourseDetails";
 import AboutUs from "../pages/about-us/AboutUs";
 import Contact from "../pages/contact/Contact";
 import AddNewTolet from "../pages/dashboard/AddNewTolet";
-import EditTolet from "../pages/dashboard/EditTolet";
-import ManageAllTolets from "../pages/dashboard/ManageAllTolets";
+import EditTolet from "../pages/dashboard/EditCourse";
+import ManageAllTolets from "../pages/dashboard/ManageAllCourses";
 import ErrorPage from "../pages/error/ErrorPage";
 import Features from "../pages/features/Features";
 import Home from "../pages/home/Home";
@@ -54,7 +54,7 @@ export const router = createBrowserRouter([
             `http://localhost:5000/courses/${params.id}`
           );
           if (!response.ok) {
-            throw new Error(`Could not fetch tolet with id ${params.id}`);
+            throw new Error(`Could not fetch course with id ${params.id}`);
           }
           return response.json();
         },
@@ -90,7 +90,7 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "/dashboard/add-tolet",
+        path: "/dashboard/add-course",
         element: (
           <PrivateRoute>
             <AddNewTolet />
@@ -98,7 +98,7 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: `/dashboard/edit-tolet/:id`,
+        path: `/dashboard/edit-course/:id`,
         element: (
           <PrivateRoute>
             <EditTolet />
