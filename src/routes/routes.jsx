@@ -4,7 +4,7 @@ import MainLayout from "../Layouts/MainLayout";
 import CourseDetails from "../components/SubComponent/CourseDetails";
 import AboutUs from "../pages/about-us/AboutUs";
 import Contact from "../pages/contact/Contact";
-import AddNewTolet from "../pages/dashboard/AddNewTolet";
+import AddCourseCard from "../pages/dashboard/AddCourseCard";
 import EditTolet from "../pages/dashboard/EditCourse";
 import ManageAllTolets from "../pages/dashboard/ManageAllCourses";
 import ErrorPage from "../pages/error/ErrorPage";
@@ -82,7 +82,7 @@ export const router = createBrowserRouter([
         element: <Profile />,
       },
       {
-        path: "/dashboard/all-tolets",
+        path: "/dashboard/all-courses",
         element: (
           <PrivateRoute>
             <ManageAllTolets />
@@ -93,7 +93,7 @@ export const router = createBrowserRouter([
         path: "/dashboard/add-course",
         element: (
           <PrivateRoute>
-            <AddNewTolet />
+            <AddCourseCard />
           </PrivateRoute>
         ),
       },

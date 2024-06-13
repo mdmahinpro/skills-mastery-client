@@ -12,9 +12,7 @@ function ManageAllCourses() {
 
   const fetchCourses = async () => {
     try {
-      const response = await fetch(
-        "https://tolet-backend-7e9u.onrender.com/tolets"
-      );
+      const response = await fetch("http://localhost:5000/courses");
       const data = await response.json();
       setCourses(data);
     } catch (error) {
@@ -29,7 +27,7 @@ function ManageAllCourses() {
 
     if (confirmDelete) {
       try {
-        await fetch(`https://tolet-backend-7e9u.onrender.com/tolets/${_id}`, {
+        await fetch(`http://localhost:5000/courses/${_id}`, {
           method: "DELETE",
         });
         setShowToast(true);
