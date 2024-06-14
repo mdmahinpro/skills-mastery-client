@@ -3,7 +3,7 @@ import DashboardLayout from "../Layouts/DashboardLayout";
 import MainLayout from "../Layouts/MainLayout";
 import CourseDetails from "../components/SubComponent/CourseDetails";
 import AboutUs from "../pages/about-us/AboutUs";
-import Contact from "../pages/contact/Contact";
+
 import AddCourseCard from "../pages/dashboard/AddCourseCard";
 import EditCourse from "../pages/dashboard/EditCourse";
 import ManageAllCourses from "../pages/dashboard/ManageAllCourses";
@@ -25,10 +25,10 @@ export const router = createBrowserRouter([
         path: "/", // Root path
         element: <Home />, // Home component
       },
-      {
-        path: "contact", // Contact path
-        element: <Contact />, // Contact component
-      },
+      // {
+      //   path: "contact", // Contact path
+      //   element: <Contact />, // Contact component
+      // },
       {
         path: "login", // Login path
         element: <Login />, // Login component
