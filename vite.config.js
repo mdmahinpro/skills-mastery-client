@@ -9,7 +9,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           // Remove the following line if you are not using lodash
-          // lodash: ['lodash']
+          // lodash: ["lodash"],
         },
       },
     },

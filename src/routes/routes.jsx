@@ -3,11 +3,9 @@ import DashboardLayout from "../Layouts/DashboardLayout";
 import MainLayout from "../Layouts/MainLayout";
 import CourseDetails from "../components/SubComponent/CourseDetails";
 import AboutUs from "../pages/about-us/AboutUs";
-import Contact from "../pages/contact/Contact";
 import AddCourseCard from "../pages/dashboard/AddCourseCard";
 import EditCourse from "../pages/dashboard/EditCourse";
 import ManageAllCourses from "../pages/dashboard/ManageAllCourses";
-import ErrorPage from "../pages/error/ErrorPage";
 import Features from "../pages/features/Features";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
@@ -19,16 +17,16 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />, // MainLayout wraps around child components
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     children: [
       {
         path: "/", // Root path
         element: <Home />, // Home component
       },
-      {
-        path: "contact", // Contact path
-        element: <Contact />, // Contact component
-      },
+      // {
+      //   path: "contact", // Contact path
+      //   element: <Contact />, // Contact component
+      // },
       {
         path: "login", // Login path
         element: <Login />, // Login component
