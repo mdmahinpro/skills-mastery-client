@@ -4,12 +4,12 @@ function Features() {
       <section className="max-w-8xl mx-auto container bg-white dark:bg-gray-900 pt-16">
         <div>
           <div role="contentinfo" className="flex items-center flex-col px-4">
-            <hh1
+            <h1
               tabIndex="0"
               className="text-2xl md:text-3xl text-center  font-bold text-gray-100 "
             >
               Explorer our main specialities
-            </hh1>
+            </h1>
           </div>
           <div
             tabIndex="0"
