@@ -51,7 +51,7 @@ export const router = createBrowserRouter([
         element: <CourseDetails />,
         loader: async ({ params }) => {
           const response = await fetch(
-            `http://localhost:5000/courses/${params.id}`
+            `https://skills-mastery-server.onrender.com/courses/${params.id}`
           );
           if (!response.ok) {
             throw new Error(`Could not fetch course with id ${params.id}`);

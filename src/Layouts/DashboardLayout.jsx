@@ -111,7 +111,7 @@ export default function Dashboard() {
                                   className="h-6 w-6 shrink-0"
                                   aria-hidden="true"
                                 />
-                                All Tolets
+                                All Courses
                               </a>
                             </li>
                             <li>
@@ -123,7 +123,7 @@ export default function Dashboard() {
                                   className="h-6 w-6 shrink-0"
                                   aria-hidden="true"
                                 />
-                                Add New Tolets
+                                Add New Course
                               </Link>
                             </li>
                           </ul>
@@ -159,7 +159,7 @@ export default function Dashboard() {
                           className="h-6 w-6 shrink-0"
                           aria-hidden="true"
                         />
-                        All Tolets
+                        All Courses
                       </a>
                     </li>
                     <li>

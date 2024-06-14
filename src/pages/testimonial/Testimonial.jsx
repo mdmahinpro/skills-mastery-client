@@ -1,7 +1,7 @@
 export default function Testimonial() {
   return (
     <div>
-      <section className="bg-gray-900 pb-8">
+      <section className="bg-gray-900 pb-8 border-gray-200 border mx-2">
         <h1 className="text-2xl md:text-3xl text-center  py-16 font-bold text-gray-100 ">
           Testimonial
         </h1>
@@ -16,11 +16,10 @@ export default function Testimonial() {
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-white">
                   <p>
-                    “Amet amet eget scelerisque tellus sit neque faucibus non
-                    eleifend. Integer eu praesent at a. Ornare arcu gravida
-                    natoque erat et cursus tortor consequat at. Vulputate
-                    gravida sociis enim nullam ultricies habitant malesuada
-                    lorem ac. Tincidunt urna dui pellentesque sagittis.”
+                    “Skills Mastery has revolutionized my learning experience.
+                    The platform offers a wide range of high-quality courses
+                    taught by industry experts, making it easy for me to acquire
+                    new skills at my own pace.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">
@@ -45,10 +44,10 @@ export default function Testimonial() {
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-white">
                   <p>
-                    “Excepteur veniam labore ullamco eiusmod. Pariatur consequat
-                    proident duis dolore nulla veniam reprehenderit nisi officia
-                    voluptate incididunt exercitation exercitation elit. Nostrud
-                    veniam sint dolor nisi ullamco.”
+                    “As a busy professional, I appreciate how Skills Mastery
+                    allows me to fit learning into my schedule. The engaging
+                    course content and interactive exercises keep me motivated,
+                    and the affordable pricing makes it accessible to everyone”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">

@@ -9,8 +9,8 @@ function Home() {
     <div className="bg-gray-900 pb-8">
       <Hero />
       <CourseList />
-      <Testimonial />
       <Features />
+      <Testimonial />
       {/* <AboutUs /> */}
       <Contact />
     </div>

@@ -12,7 +12,9 @@ function ManageAllCourses() {
 
   const fetchCourses = async () => {
     try {
-      const response = await fetch("http://localhost:5000/courses");
+      const response = await fetch(
+        "https://skills-mastery-server.onrender.com/courses"
+      );
       const data = await response.json();
       setCourses(data);
     } catch (error) {
@@ -27,9 +29,12 @@ function ManageAllCourses() {
 
     if (confirmDelete) {
       try {
-        await fetch(`http://localhost:5000/courses/${_id}`, {
-          method: "DELETE",
-        });
+        await fetch(
+          `https://skills-mastery-server.onrender.com/courses/${_id}`,
+          {
+            method: "DELETE",
+          }
+        );
         setShowToast(true);
         setTimeout(() => setShowToast(false), 3000);
         fetchCourses();

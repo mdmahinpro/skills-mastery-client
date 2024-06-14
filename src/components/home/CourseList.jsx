@@ -8,7 +8,7 @@ export default function CourseList() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/courses")
+    fetch("https://skills-mastery-server.onrender.com/courses")
       .then((res) => res.json())
       .then((data) => setCourses(data))
       .catch((error) => console.error("Error fetching to-lets:", error));

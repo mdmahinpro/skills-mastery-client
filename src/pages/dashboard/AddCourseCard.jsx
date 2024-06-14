@@ -41,13 +41,16 @@ function AddCourseCard() {
 
       if (confirmAdd) {
         try {
-          const response = await fetch(`http://localhost:5000/courses`, {
-            method: "POST",
-            headers: {
-              "Content-type": "application/json",
-            },
-            body: JSON.stringify(course),
-          });
+          const response = await fetch(
+            `https://skills-mastery-server.onrender.com/courses`,
+            {
+              method: "POST",
+              headers: {
+                "Content-type": "application/json",
+              },
+              body: JSON.stringify(course),
+            }
+          );
 
           if (response.ok) {
             setShowToast(true);
@@ -155,7 +158,7 @@ function AddCourseCard() {
         <div className="text-right">
           <button
             type="submit"
-            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-900 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Add Course
           </button>

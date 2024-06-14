@@ -40,7 +40,7 @@ function CourseCard({ course }) {
               <p className="text-2xl font-bold text-gray-800">${price}</p>
               <Link
                 to={`/courses/${_id}`}
-                className="py-2 px-4 text-white bg-teal-600 rounded-md hover:bg-teal-700 transition duration-300"
+                className="py-2 px-4 text-white bg-gray-900 rounded-md hover:bg-teal-500  transition duration-300"
               >
                 View Details
               </Link>
