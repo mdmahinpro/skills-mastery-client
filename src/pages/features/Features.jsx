@@ -1,6 +1,6 @@
 function Features() {
   return (
-    <div className="bg-gray-900 h-screen">
+    <div className="bg-gray-900 h-screen pb-8">
       <section className="max-w-8xl mx-auto container bg-white dark:bg-gray-900 pt-16">
         <div>
           <div role="contentinfo" className="flex items-center flex-col px-4">

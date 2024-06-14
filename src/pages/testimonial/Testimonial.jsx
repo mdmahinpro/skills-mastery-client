@@ -1,7 +1,7 @@
 export default function Testimonial() {
   return (
     <div>
-      <section className="bg-gray-900 pb-8 border-gray-200 border mx-2">
+      <section className="bg-gray-900 pb-8 border-gray-200 border mx-2 ">
         <h1 className="text-2xl md:text-3xl text-center  py-16 font-bold text-gray-100 ">
           Testimonial
         </h1>
