@@ -11,7 +11,6 @@ function Home() {
       <CourseList />
       <Features />
       <Testimonial />
-      {/* <AboutUs /> */}
       <Contact />
     </div>
   );

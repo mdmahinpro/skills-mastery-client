@@ -5,8 +5,8 @@ import CourseDetails from "../components/SubComponent/CourseDetails";
 import AboutUs from "../pages/about-us/AboutUs";
 import Contact from "../pages/contact/Contact";
 import AddCourseCard from "../pages/dashboard/AddCourseCard";
-import EditTolet from "../pages/dashboard/EditCourse";
-import ManageAllTolets from "../pages/dashboard/ManageAllCourses";
+import EditCourse from "../pages/dashboard/EditCourse";
+import ManageAllCourses from "../pages/dashboard/ManageAllCourses";
 import ErrorPage from "../pages/error/ErrorPage";
 import Features from "../pages/features/Features";
 import Home from "../pages/home/Home";
@@ -85,7 +85,7 @@ export const router = createBrowserRouter([
         path: "/dashboard/all-courses",
         element: (
           <PrivateRoute>
-            <ManageAllTolets />
+            <ManageAllCourses />
           </PrivateRoute>
         ),
       },
@@ -101,7 +101,7 @@ export const router = createBrowserRouter([
         path: `/dashboard/edit-course/:id`,
         element: (
           <PrivateRoute>
-            <EditTolet />
+            <EditCourse />
           </PrivateRoute>
         ),
       },
