@@ -71,3 +71,4 @@ The application will be available at your web browser.
 ## Contact
 
 For any queries regarding the application, please reach out via email at mdmahin.pro@gmail.com.
+# skills-mastery-client
